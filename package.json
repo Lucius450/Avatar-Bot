@@ -1,0 +1,12 @@
+{
+    "name": "avatar-bot",
+    "version": "0.0.0",
+    "description": "A Discord Bot, that sends a picture of your avatar.",
+    "main": "bot.js",
+    "scripts": {
+      "start": "node bot.js"
+    },
+    "dependencies": {
+      "discord.js": "^12.0.2"
+    }
+  }
