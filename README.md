@@ -8,4 +8,4 @@ You must create a file named `auth.json` containing the following:
     "token": "YOUR_DISCORD_TOKEN"
 }
 ```
-To run, type `node bot.js`.
+To run, type `node bot.js` in the Terminal.
