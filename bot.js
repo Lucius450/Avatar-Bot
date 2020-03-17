@@ -13,7 +13,7 @@ client.on('message', message => {
         const embed = new Discord.MessageEmbed()
         .setTitle('Avatar')
         .setThumbnail(message.author.avatarURL())
-        .setDescription(message.member.toString() + ('\s Avatar'));
+        .setDescription(message.member.toString() + ('\`s Avatar'));
 
         return message.channel.send(embed);
 
